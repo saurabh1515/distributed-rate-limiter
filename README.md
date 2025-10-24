@@ -2,6 +2,12 @@
 
 A production-ready, distributed rate limiting service built with Spring Boot and Redis. Supports multiple rate limiting algorithms and can be used as a standalone service or library for any microservices architecture.
 
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Java](https://img.shields.io/badge/Java-17-orange)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2-green)
+![Redis](https://img.shields.io/badge/Redis-7.2-red)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
 ## ✨ Features
 
 - **Multiple Algorithms**: Token Bucket, Sliding Window Log, Sliding Window Counter, Fixed Window
