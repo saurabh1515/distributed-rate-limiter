@@ -1,4 +1,4 @@
-package org.saurabh.ratelimiter;
+package com.saurabh.ratelimiter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

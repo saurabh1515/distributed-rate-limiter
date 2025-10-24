@@ -1,12 +1,12 @@
-package org.saurabh.ratelimiter.service;
+package com.saurabh.ratelimiter.service;
 
 import io.micrometer.core.instrument.MeterRegistry;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.saurabh.ratelimiter.algorithm.RateLimitAlgorithm;
-import org.saurabh.ratelimiter.model.RateLimitAlgorithmType;
-import org.saurabh.ratelimiter.model.RateLimitResponse;
-import org.saurabh.ratelimiter.model.RateLimitResult;
+import com.saurabh.ratelimiter.algorithm.RateLimitAlgorithm;
+import com.saurabh.ratelimiter.model.RateLimitAlgorithmType;
+import com.saurabh.ratelimiter.model.RateLimitResponse;
+import com.saurabh.ratelimiter.model.RateLimitResult;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 

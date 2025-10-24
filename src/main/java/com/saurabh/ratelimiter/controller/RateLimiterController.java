@@ -1,11 +1,11 @@
-package org.saurabh.ratelimiter.controller;
+package com.saurabh.ratelimiter.controller;
 
 
 import lombok.RequiredArgsConstructor;
-import org.saurabh.ratelimiter.model.RateLimitAlgorithmType;
-import org.saurabh.ratelimiter.model.RateLimitRequest;
-import org.saurabh.ratelimiter.model.RateLimitResponse;
-import org.saurabh.ratelimiter.service.RateLimiterService;
+import com.saurabh.ratelimiter.model.RateLimitAlgorithmType;
+import com.saurabh.ratelimiter.model.RateLimitRequest;
+import com.saurabh.ratelimiter.model.RateLimitResponse;
+import com.saurabh.ratelimiter.service.RateLimiterService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

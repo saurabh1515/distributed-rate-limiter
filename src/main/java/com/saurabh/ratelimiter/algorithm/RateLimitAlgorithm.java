@@ -1,6 +1,6 @@
-package org.saurabh.ratelimiter.algorithm;
+package com.saurabh.ratelimiter.algorithm;
 
-import org.saurabh.ratelimiter.model.RateLimitResult;
+import com.saurabh.ratelimiter.model.RateLimitResult;
 
 public interface RateLimitAlgorithm {
 

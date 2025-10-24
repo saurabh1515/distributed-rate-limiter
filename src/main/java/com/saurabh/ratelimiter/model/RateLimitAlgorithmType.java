@@ -1,4 +1,4 @@
-package org.saurabh.ratelimiter.model;
+package com.saurabh.ratelimiter.model;
 
 public enum RateLimitAlgorithmType {
     TOKEN_BUCKET,

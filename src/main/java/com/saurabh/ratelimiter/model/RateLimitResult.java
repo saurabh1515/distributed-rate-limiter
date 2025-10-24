@@ -1,4 +1,4 @@
-package org.saurabh.ratelimiter.model;
+package com.saurabh.ratelimiter.model;
 
 import lombok.Builder;
 import lombok.Data;
@@ -7,7 +7,7 @@ import java.time.Instant;
 
 @Data
 @Builder
-public class RateLimitResponse {
+public class RateLimitResult {
     private boolean allowed;
     private long remaining;
     private Instant resetAt;

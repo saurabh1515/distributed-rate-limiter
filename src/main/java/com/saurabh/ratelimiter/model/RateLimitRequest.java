@@ -1,4 +1,4 @@
-package org.saurabh.ratelimiter.model;
+package com.saurabh.ratelimiter.model;
 
 import lombok.Data;
 
