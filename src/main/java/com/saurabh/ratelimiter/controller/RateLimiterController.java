@@ -1,7 +1,6 @@
 package com.saurabh.ratelimiter.controller;
 
 
-import lombok.RequiredArgsConstructor;
 import com.saurabh.ratelimiter.model.RateLimitAlgorithmType;
 import com.saurabh.ratelimiter.model.RateLimitRequest;
 import com.saurabh.ratelimiter.model.RateLimitResponse;
@@ -17,7 +16,6 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("/api/v1/ratelimit")
-@RequiredArgsConstructor
 public class RateLimiterController {
 
     private final RateLimiterService rateLimiterService;
