@@ -22,6 +22,10 @@ public class RateLimiterController {
 
     private final RateLimiterService rateLimiterService;
 
+    public RateLimiterController(RateLimiterService rateLimiterService) {
+        this.rateLimiterService = rateLimiterService;
+    }
+
     /**
      * Check if request is allowed under rate limit
      */
